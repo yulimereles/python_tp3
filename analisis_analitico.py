@@ -16,5 +16,5 @@ data_frame['Ri'] = data_frame['ri'].cumsum()
 data_frame['pi%'] = data_frame['ri'] * 100
 data_frame['Pi%'] = data_frame['pi%'].cumsum()
 
-data_frame.to_csv('nuevo_datos.csv', index=False)
+data_frame.to_csv('edades.csv', index=False)
 print(data_frame)
